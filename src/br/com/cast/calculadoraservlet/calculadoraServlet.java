@@ -58,7 +58,7 @@ public class calculadoraServlet extends HttpServlet {
 				principalResult(writer, result);
 			}
 		}
-		if(operacao.equals("limpar")) {
+		if(operacao.equals("CE")) {
 			
 			principal(writer);
 		}
